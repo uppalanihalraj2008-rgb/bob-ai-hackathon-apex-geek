@@ -177,6 +177,66 @@ def page_overview():
     else:
         ui.worklist_table(leads)
 
+    # ---- Demographics charts ------------------------------------------------
+    if antes or posts:
+        import pandas as _pd
+        from collections import Counter as _Ctr
+
+        st.markdown("### Population demographics")
+        col1, col2, col3 = st.columns(3)
+
+        # --- Sex distribution ---
+        with col1:
+            with st.container(border=True):
+                st.markdown("**Sex distribution**")
+                am_sex = _Ctr(a.sex or "unknown" for a in antes)
+                pm_sex = _Ctr(p.sex or "unknown" for p in posts)
+                all_sex = sorted(set(am_sex) | set(pm_sex))
+                sex_df = _pd.DataFrame(
+                    {"Ante-mortem": [am_sex.get(s, 0) for s in all_sex],
+                     "Post-mortem": [pm_sex.get(s, 0) for s in all_sex]},
+                    index=all_sex,
+                )
+                st.bar_chart(sex_df, stack=False)
+
+        # --- Age bracket distribution ---
+        with col2:
+            with st.container(border=True):
+                st.markdown("**Age brackets (mid-point estimate)**")
+
+                def _age_bracket(lo, hi):
+                    mid = ((lo or 0) + (hi or 0)) / 2
+                    if mid < 18: return "<18"
+                    if mid < 30: return "18-29"
+                    if mid < 45: return "30-44"
+                    if mid < 60: return "45-59"
+                    return "60+"
+
+                brackets = ["<18", "18-29", "30-44", "45-59", "60+"]
+                am_age = _Ctr(_age_bracket(a.age_min, a.age_max) for a in antes)
+                pm_age = _Ctr(_age_bracket(p.age_min, p.age_max) for p in posts)
+                age_df = _pd.DataFrame(
+                    {"Ante-mortem": [am_age.get(b, 0) for b in brackets],
+                     "Post-mortem": [pm_age.get(b, 0) for b in brackets]},
+                    index=brackets,
+                )
+                st.bar_chart(age_df, stack=False)
+
+        # --- Blood type distribution ---
+        with col3:
+            with st.container(border=True):
+                st.markdown("**Blood type distribution**")
+                am_bt = _Ctr((a.blood_type or "unknown").strip() for a in antes)
+                pm_bt = _Ctr((p.blood_type or "unknown").strip() for p in posts)
+                all_bt = sorted(set(am_bt) | set(pm_bt))
+                bt_df = _pd.DataFrame(
+                    {"Ante-mortem": [am_bt.get(b, 0) for b in all_bt],
+                     "Post-mortem": [pm_bt.get(b, 0) for b in all_bt]},
+                    index=all_bt,
+                )
+                st.bar_chart(bt_df, stack=False)
+    # -------------------------------------------------------------------------
+
     import datetime as _dt
     audit = _safe(lambda: db.list_match_audit(8), [])
     if audit:
