@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | Apex geek |
+| **Team Name** | [Apex geek] |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Lead** | [Uppala Nihalraj] — [uppalanihalraj2008@gmail.com] |
+| **Members** | [Anirudha Kiran Bharadwaj], [Harshit Bhat], [Korukonda Chandan Babu] |
 
 ---
 
@@ -19,7 +19,7 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+[Build a Bob-powered DVI coordination tool where teams log ante-mortem profile(family-provided: physical description, scars, birthmarks, clothing, dental notes) and post-mortem observations. Bob cross-references all entries, produces a match-probability score for each pairing, surfaces the top 3 candidates per unidentified body with rationale, and generates a reconciliation report ready for forensic confirmation.]
 
 ---
 
@@ -27,16 +27,16 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+[Disaster victim indentification is a Bob-powered DVI platform that cross-references family-provided Ante-Mortem profiles with field Post-Mortem observations using Model Context Protocol (MCP) tools. It calculates weighted match probability scores across facial recognition, fingerprint minutiae, dental charting, and distinguishing physical marks to surface the top 3 candidates per unidentified body with clear rationales. Finally, it generates audit-ready reconciliation reports equipped with forensic sign-off templates ready for official confirmation.]
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
+- **Feature 1:** [Bob AI integration]
+- **Feature 2:** [Basic Face and fingerprint matching]
+- **Feature 3:** [Forensic feature scoring]
+- **Feature 4:** [Automated DVI reports]
 - **Feature 5:** [Optional]
 
 ---
@@ -45,11 +45,11 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | [Python] |
+| **Frameworks** | [FastMCP, Insightface, Pydantic, Numpy] |
+| **IBM Technologies** | [IBM Bob] |
+| **Databases** | [SQLite] |
+| **Other** | [] |
 
 ---
 

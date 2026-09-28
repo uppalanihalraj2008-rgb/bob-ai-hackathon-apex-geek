@@ -1,0 +1,30 @@
+# Core
+mcp>=2.0.0          # MCP SDK -- FastMCP server API
+streamlit>=1.38.0   # Demo dashboard (no Bob session required)
+
+# Dev / testing
+pytest>=8.0.0
+
+# Notes:
+# - matching_engine.py, models.py, database.py, and report_generator.py use
+#   only the Python standard library (sqlite3, difflib, dataclasses, json).
+#   They have zero third-party dependencies by design -- see
+#   matching_engine.py's module docstring for why.
+
+# Face matching (OPTIONAL -- everything else runs without these; photos are
+# then saved with status "not_processed"). Model weights (~300 MB) download
+# once on first use; after that it runs fully offline.
+insightface>=0.7.3
+onnxruntime>=1.17.0
+opencv-python-headless>=4.9.0
+numpy>=1.26
+scikit-image>=0.22
+PyPDF2
+python-docx
+pypdf
+
+# Fingerprint matching (OPTIONAL -- without these, prints are saved with
+# status "not_processed" and everything else still works). Runs fully offline.
+opencv-python-headless>=4.9.0   # (shared with face matching)
+scikit-image>=0.22.0
+numpy>=1.26                     # (shared with face matching)

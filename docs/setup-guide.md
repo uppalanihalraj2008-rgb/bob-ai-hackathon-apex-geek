@@ -4,12 +4,11 @@
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
-
-- [ ] [e.g., Python 3.11+]
-- [ ] [e.g., Node.js 18+]
-- [ ] [e.g., Docker Desktop]
-- [ ] [e.g., An IBM Cloud account with watsonx.ai access]
+- [x] Python 3.10+ (developed and tested on 3.12)
+- [x] `pip`
+- [ ] An IBM Bob session with MCP support (only needed for the
+      conversational MCP path)
+- [ ] Internet access for the first face-matching model download
 
 ## Environment Variables
 

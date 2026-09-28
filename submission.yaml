@@ -9,51 +9,65 @@
 # =============================================================================
 
 team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: "Apex geek"                             # REQUIRED — e.g., "Orion Squad"
+  track: "AI"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "Uppala Nihalraj"                           # REQUIRED — e.g., "Alice Chen"
+    email: "uppalanihalraj2008@gmail.com"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "Anirudha Kiran Bharadwaj"                         # REQUIRED — Team member 1
+      email: "banirudhak@gmail.com"
+    - name: "Harshit Bhat"                         # Add more members by copying the two lines above
+      email: "harshbee444@gmail.com"
+    - name: "Korukonda Chandan Babu"
+      email: "chandanbabukorukonda@gmail.com"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "Disaster Victim Identification"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
 
   problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Replace this text with a concise description of the real-world problem
-    your project addresses and who experiences it.
+    Build a Bob-powered DVI coordination tool where teams log ante-mortem profiles (family-provided: physical 
+    description, scars, birthmarks, clothing, dental notes) and post-mortem observations. Bob cross-references all entries, 
+    produces a match-probability score for each pairing, surfaces the top 3 candidates per unidentified body with 
+    rationale, and generates a reconciliation report ready for forensic confirmation.
 
   solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    Replace this text with a clear description of your solution
-    and how it addresses the problem above.
+    Disaster victim indentification is a Bob-powered DVI platform that cross-references family-provided Ante-Mortem profiles 
+    with field Post-Mortem observations using Model Context Protocol (MCP) tools. It calculates weighted match 
+    probability scores across facial recognition, fingerprint minutiae, dental charting, and distinguishing 
+    physical marks to surface the top 3 candidates per unidentified body with clear rationales. 
+    Finally, it generates audit-ready reconciliation reports equipped with forensic sign-off templates ready 
+    for official confirmation.
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
-    - ""                               # optional 4th
+    - "Bob AI integration"                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
+    - "Basic face and biometric matching"
+    - "Forensic feature scoring"
+    - "Automated DVI reports"                               # optional 4th
     - ""                               # optional 5th
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: []                      # e.g., ["PostgreSQL", "Redis"]
+    languages: ["Python"]                      # REQUIRED — e.g., ["Python", "TypeScript"]
+    frameworks: ["FastMCP","Insightface","Pydantic","Numpy","SQLite"]                     # e.g., ["FastAPI", "React"]
+    ibm_technologies: ["IBM bob"]               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
+    databases: ["SQLite"]                      # e.g., ["PostgreSQL", "Redis"]
     other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 
   what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
-    Replace with what aspect of the submission you consider strongest
-    and want judges to pay special attention to.
+    We are immensely proud of building a humanitarian platform designed to accelerate disaster response and
+    bring swift closure to grieving families. By connecting complex DVI workflows directly to Bob AI via MCP, 
+    we created an intuitive, natural-language interface backed by a unified engine that merges facial recognition, 
+    fingerprint minutiae, dental charting, and physical trait matching. Most importantly, our system emphasizes 
+    transparent AI by delivering clear, auditable match rationales alongside audit-ready forensic reconciliation 
+    reports equipped for official sign-off.
 
   known_limitations: >                 # Optional but recommended — be honest about gaps
-    Replace with any known limitations, incomplete features,
-    or shortcuts taken due to time constraints.
+    While Project Reconcile offers a powerful decision-support framework, it operates with known technical 
+    boundaries. Heavily decomposed remains or low-resolution imagery reduce the extraction accuracy of the facial 
+    recognition and fingerprint minutiae modules. Furthermore, incomplete Ante-Mortem or Post-Mortem logs with 
+    missing trait fields can affect weighted match score calculations. Crucially, the engine functions strictly 
+    as an assistive lead-generation tool and cannot replace certified AFIS databases or mandatory final verification 
+    by qualified forensic pathologists and odontologists.
 
 # =============================================================================
 # ARTIFACT LOCATIONS

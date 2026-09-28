@@ -1,0 +1,118 @@
+[
+  {
+    "reporter_name": "Elena Reyes",
+    "reporter_relationship": "sister",
+    "reporter_contact": "elena.reyes@example.com",
+    "missing_person_name": "Jordan Reyes",
+    "sex": "male",
+    "age_min": 28,
+    "age_max": 34,
+    "height_cm_min": 175,
+    "height_cm_max": 180,
+    "build": "athletic",
+    "hair_color": "black",
+    "hair_length": "short",
+    "eye_color": "brown",
+    "marks": [
+      {"type": "scar", "location": "left forearm", "description": "3cm curved scar from a childhood bike accident"},
+      {"type": "tattoo", "location": "right shoulder", "description": "small anchor design"}
+    ],
+    "clothing": ["blue denim jacket", "gold wedding band", "black boots"],
+    "dental_notes": "missing lower right molar (extracted 2019), both wisdom teeth removed",
+    "blood_type": "O+",
+    "last_seen_location": "Riverside Flood Response staging area, Zone B",
+    "last_seen_date": "2026-06-14"
+  },
+  {
+    "reporter_name": "Devi Nair",
+    "reporter_relationship": "daughter",
+    "reporter_contact": "devi.nair@example.com",
+    "missing_person_name": "Priya Nair",
+    "sex": "female",
+    "age_min": 45,
+    "age_max": 52,
+    "height_cm_min": 159,
+    "height_cm_max": 165,
+    "build": "average",
+    "hair_color": "gray",
+    "hair_length": "shoulder-length",
+    "eye_color": "brown",
+    "marks": [
+      {"type": "birthmark", "location": "neck, right side", "description": "small brown birthmark below the ear"}
+    ],
+    "clothing": ["green scarf", "prescription glasses", "silver bangle"],
+    "dental_notes": "gold crown on upper left premolar, slight gap between front teeth",
+    "blood_type": "A+",
+    "last_seen_location": "Riverside district, Elm Street footbridge",
+    "last_seen_date": "2026-06-14"
+  },
+  {
+    "reporter_name": "Marco Alvarez",
+    "reporter_relationship": "son",
+    "reporter_contact": "marco.alvarez@example.com",
+    "missing_person_name": "Tomas Alvarez",
+    "sex": "male",
+    "age_min": 60,
+    "age_max": 68,
+    "height_cm_min": 167,
+    "height_cm_max": 173,
+    "build": "heavy",
+    "hair_color": "white",
+    "hair_length": "short",
+    "eye_color": "brown",
+    "marks": [
+      {"type": "scar", "location": "abdomen", "description": "long surgical scar from an appendectomy, ~20 years old"}
+    ],
+    "clothing": ["brown leather jacket", "silver wristwatch"],
+    "dental_notes": "wears full upper and lower dentures",
+    "blood_type": "B+",
+    "last_seen_location": "Riverside district, near the community center",
+    "last_seen_date": "2026-06-14"
+  },
+  {
+    "reporter_name": "Hui Lin",
+    "reporter_relationship": "mother",
+    "reporter_contact": "hui.lin@example.com",
+    "missing_person_name": "Wei Lin",
+    "sex": "female",
+    "age_min": 22,
+    "age_max": 26,
+    "height_cm_min": 158,
+    "height_cm_max": 162,
+    "build": "slim",
+    "hair_color": "black",
+    "hair_length": "long",
+    "eye_color": "brown",
+    "marks": [
+      {"type": "tattoo", "location": "left ankle", "description": "small star, about 1 inch"}
+    ],
+    "clothing": ["yellow raincoat", "pink backpack"],
+    "dental_notes": "currently wearing orthodontic braces, upper and lower",
+    "blood_type": "AB+",
+    "last_seen_location": "Riverside district, university footpath",
+    "last_seen_date": "2026-06-14"
+  },
+  {
+    "reporter_name": "Ngozi Okafor",
+    "reporter_relationship": "wife",
+    "reporter_contact": "ngozi.okafor@example.com",
+    "missing_person_name": "Amara Okafor",
+    "sex": "male",
+    "age_min": 35,
+    "age_max": 41,
+    "height_cm_min": 180,
+    "height_cm_max": 186,
+    "build": "muscular",
+    "hair_color": "black",
+    "hair_length": "shaved",
+    "eye_color": "brown",
+    "marks": [
+      {"type": "fracture", "location": "right wrist", "description": "old healed fracture from a sports injury, slight visible deformity"}
+    ],
+    "clothing": ["blue football jersey, number 7"],
+    "dental_notes": "small gap between front teeth, gold cap on lower left canine",
+    "blood_type": "O-",
+    "last_seen_location": "Riverside district, near the sports field",
+    "last_seen_date": "2026-06-14"
+  }
+]

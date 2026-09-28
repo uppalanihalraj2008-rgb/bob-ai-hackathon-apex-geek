@@ -1,0 +1,85 @@
+[
+  {
+    "case_number": "DVI-2026-014",
+    "location_found": "Riverside district, near Elm Street footbridge",
+    "date_found": "2026-06-16",
+    "sex": "male",
+    "age_min": 27,
+    "age_max": 35,
+    "height_cm_min": 174,
+    "height_cm_max": 181,
+    "build": "athletic",
+    "hair_color": "black",
+    "hair_length": "short",
+    "eye_color": "brown",
+    "marks": [
+      {"type": "scar", "location": "left forearm", "description": "curved scar, approximately 3cm, appears well-healed / old"},
+      {"type": "tattoo", "location": "right shoulder", "description": "small anchor-shaped tattoo"}
+    ],
+    "clothing": ["blue denim jacket fragment", "gold band ring found nearby"],
+    "dental_findings": "lower right molar missing, consistent with prior extraction; both wisdom teeth absent",
+    "blood_type": "O+",
+    "other_findings": "Recovered from flood debris, moderate decomposition"
+  },
+  {
+    "case_number": "DVI-2026-015",
+    "location_found": "Riverside district, community center grounds",
+    "date_found": "2026-06-16",
+    "sex": "male",
+    "age_min": 55,
+    "age_max": 70,
+    "height_cm_min": 167,
+    "height_cm_max": 173,
+    "build": "heavy",
+    "hair_color": "white",
+    "hair_length": "short",
+    "eye_color": "unknown",
+    "marks": [
+      {"type": "scar", "location": "lower abdomen", "description": "long healed surgical scar, appears decades old"}
+    ],
+    "clothing": ["brown leather jacket remnants", "silver wristwatch"],
+    "dental_findings": "full upper and lower denture sets recovered with remains",
+    "blood_type": "B+",
+    "other_findings": "Recovered from flood debris near the community center"
+  },
+  {
+    "case_number": "DVI-2026-016",
+    "location_found": "Riverside district, near university footpath",
+    "date_found": "2026-06-17",
+    "sex": "female",
+    "age_min": 40,
+    "age_max": 52,
+    "height_cm_min": 159,
+    "height_cm_max": 166,
+    "build": "average",
+    "hair_color": "gray",
+    "hair_length": "shoulder-length",
+    "eye_color": "brown",
+    "marks": [
+      {"type": "birthmark", "location": "neck, right side", "description": "small brown birthmark near the ear"}
+    ],
+    "clothing": ["green fabric scarf", "glasses frame"],
+    "dental_findings": "gold crown present, upper left premolar region; slight gap between upper front teeth",
+    "blood_type": "A+",
+    "other_findings": "Recovered from flood debris"
+  },
+  {
+    "case_number": "DVI-2026-017",
+    "location_found": "Riverside district, downstream retention pond",
+    "date_found": "2026-06-18",
+    "sex": "male",
+    "age_min": 30,
+    "age_max": 45,
+    "height_cm_min": 170,
+    "height_cm_max": 176,
+    "build": "average",
+    "hair_color": "unknown",
+    "hair_length": "unknown",
+    "eye_color": "unknown",
+    "marks": [],
+    "clothing": [],
+    "dental_findings": "",
+    "blood_type": "unknown",
+    "other_findings": "Advanced decomposition; no distinguishing marks or personal effects recovered. DNA sampling recommended as primary identification path."
+  }
+]
